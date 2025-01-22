@@ -1,0 +1,46 @@
+footer p {
+    padding: 10px; /* Space inside the element */
+    border: 2px solid #88c999; /* Green border for a Spring feel */
+    margin: 15px 0; /* Space outside the element */
+    background-color: #f2f8e4; /* Light green background */
+    color: #2a623d; /* Darker green text */
+    text-align: center; /* Center-align the text */
+    font-family: 'Arial', sans-serif; /* Choose a clean font */
+}
+
+/* Display classes */
+.display-block {
+    display: block;
+    background-color: #e0f7fa; /* Light blue for distinction */
+    padding: 10px;
+    border: 1px solid #00796b;
+    margin-bottom: 20px;
+}
+
+.display-inline {
+    display: inline;
+    margin-right: 15px; /* Space between inline items */
+}
+
+.display-none {
+    display: none; /* Hidden navigation */
+}
+
+/* Additional styles for better visuals */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #4f4f4f;
+}
