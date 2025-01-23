@@ -1,6 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f8e4; /* Light green Spring background */
+    color: #2a623d; /* Darker green text for Spring theme */
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #88c999; /* Green for Spring */
+    color: white;
+    padding: 20px 0;
+}
+
+/* Navigation */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex; /* Flex layout for horizontal navigation */
+    justify-content: center;
+    background-color: #e0f7fa; /* Light blue for contrast */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00796b; /* Blue-green Spring theme */
+    font-weight: bold;
+}
+
+/* Intro section */
+.intro {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9ffe6; /* Pale yellow for freshness */
+    border: 2px solid #dcedc8; /* Light green border */
+}
+
+/* Box model styling for footer <p> */
 footer p {
     padding: 10px; /* Space inside the element */
-    border: 2px solid #88c999; /* Green border for a Spring feel */
+    border: 2px solid #88c999; /* Green border for Spring feel */
     margin: 15px 0; /* Space outside the element */
     background-color: #f2f8e4; /* Light green background */
     color: #2a623d; /* Darker green text */
@@ -19,28 +64,31 @@ footer p {
 
 .display-inline {
     display: inline;
-    margin-right: 15px; /* Space between inline items */
+    background-color: #ffeb3b; /* Bright yellow for distinction */
+    padding: 5px 10px;
+    border: 1px solid #fbc02d;
+    margin-right: 15px;
+}
+
+.display-inline-block {
+    display: inline-block;
+    background-color: #c8e6c9; /* Light green for Spring */
+    padding: 10px;
+    border: 1px solid #388e3c;
+    margin: 10px;
+    text-align: center;
 }
 
 .display-none {
-    display: none; /* Hidden navigation */
+    display: none; /* Hidden element */
 }
 
-/* Additional styles for better visuals */
-nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #00796b;
-    font-weight: bold;
-}
-
-footer p {
-    text-align: center;
-    font-size: 0.9em;
-    color: #4f4f4f;
+/* Positioning styles */
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color:#ffcc80; /* Light orange for contrast */
+    padding: 10px;
+    border: 2px solid #e651
 }
