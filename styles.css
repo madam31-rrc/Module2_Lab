@@ -1,3 +1,4 @@
+/* Body styling */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,15 +7,15 @@ body {
     color: #2a623d; /* Darker green text for Spring theme */
 }
 
-/* Header */
+/* Header styling */
 header {
     text-align: center;
-    background-color: #88c999; /* Green for Spring */
+    background-color: #88c999; /* Spring green */
     color: white;
     padding: 20px 0;
 }
 
-/* Navigation */
+/* Navigation styling */
 nav ul {
     padding: 0;
     margin: 0;
@@ -30,11 +31,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #00796b; /* Blue-green Spring theme */
+    color: #2a623d; /* Dark green text */
     font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-/* Intro section */
+/* Intro section styling */
 .intro {
     padding: 20px;
     text-align: center;
@@ -50,10 +53,10 @@ footer p {
     background-color: #f2f8e4; /* Light green background */
     color: #2a623d; /* Darker green text */
     text-align: center; /* Center-align the text */
-    font-family: 'Arial', sans-serif; /* Choose a clean font */
+    font-family: 'Arial', sans-serif; /* Clean, easy-to-read font */
 }
 
-/* Display classes */
+/* Display classes for layout */
 .display-block {
     display: block;
     background-color: #e0f7fa; /* Light blue for distinction */
@@ -83,12 +86,12 @@ footer p {
     display: none; /* Hidden element */
 }
 
-/* Positioning styles */
+/* Positioning styles for layout */
 .relative-box {
     position: relative;
     top: 20px;
     left: 30px;
-    background-color:#ffcc80; /* Light orange for contrast */
+    background-color: #ffcc80; /* Light orange for contrast */
     padding: 10px;
-    border: 2px solid #e651
+    border: 2px solid #e65100; /* Dark orange border */
 }
