@@ -29,12 +29,33 @@ nav ul li {
     margin: 0 15px;
 }
 
+/* Link styling with pseudo-classes */
 nav ul li a {
     text-decoration: none;
     color: #2a623d; /* Dark green text */
     font-weight: bold;
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Pseudo-class for hover effect */
+nav ul li a:hover {
+    background-color: #88c999; /* Spring green on hover */
+    color: white; /* Text turns white on hover */
+}
+
+/* Pseudo-class for focus effect */
+nav ul li a:focus {
+    outline: 2px solid #00796b; /* Green outline on focus for accessibility */
+    background-color: #00796b; /* Change background to darker green on focus */
+    color: white; /* Text color on focus */
+}
+
+/* Pseudo-class for active link (clicked) effect */
+nav ul li a:active {
+    background-color: #004d40; /* Darker green on click */
+    color: white; /* Text color changes when clicked */
 }
 
 /* Intro section styling */
@@ -94,4 +115,55 @@ footer p {
     background-color: #ffcc80; /* Light orange for contrast */
     padding: 10px;
     border: 2px solid #e65100; /* Dark orange border */
+}
+
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 768px) {
+    /* Stack the navigation items vertically */
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .intro {
+        padding: 15px;
+        font-size: 1.1em;
+    }
+
+    /* Make grid items display in a single column on small screens */
+    .grid-section {
+        display: block;
+    }
+
+    .grid-item {
+        margin-bottom: 15px;
+    }
+
+    /* Smaller footer text */
+    footer p {
+        font-size: 0.8em;
+    }
+}
+
+/* Responsive Design for Extra Small Devices */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; /* Adjust font size for readability */
+    }
+
+    header h1 {
+        font-size: 1.5em; /* Slightly smaller header */
+    }
+
+    .intro {
+        font-size: 1em;
+    }
+
+    .grid-item {
+        font-size: 0.9em; /* Smaller text in grid items */
+    }
 }
